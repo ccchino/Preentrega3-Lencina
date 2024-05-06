@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabeza{
+    height: 300px;
+    background-color: #4a0b84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 300px;
+    text-align: left;
+}
+h1{
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;  
+    font-size: 200px;
+    color: blueviolet;
+    text-align: right;
+    margin: 10px;
+}
+nav{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.loguito{
+    height: 50px;
+    width: 50px;
+}
+.carousel-item{
+    height: 500px;
+}
+.principales{
+    text-align: center;
+    color: #4a0b84;
+    font-weight: 800;
+    font-style: initial;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+.empresas{
+    width: 170px;
+    height: 150px;
+    margin: 10px;
+}
+.quienes-somos{
+    text-align: center;
+    color: #4a0b84;
+    font-weight: 800;
+    font-style: initial;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+.bienvenido{
+    text-align: left;
+}
+h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.imperdibles{
+    text-align: center;
+    color: #4a0b84;
+    font-weight: 800;
+    font-style: initial;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+h3:hover{
+    color: blueviolet;
+}
+.opacity{
+    opacity: 30%;
+}
+.iniciar{
+    font-size: 150px;
+}
+.microprocesadores{
+    font-size: 100px;
+}
+.placas{
+    font-size: 130px;
+}
+.perifericos{
+    width: 300px;
+}
+.video-rtx4060{
+    height: 300px;
+    width: 300px;
+}
+.micro{
+    width: 450px;
+    height: 250px;
+}
+.pie-pagina{
+    width: 100%;
+    background-image: linear-gradient(to bottom, white, #4a0b84, #4a0b84, #4a0b84, #4a0b84, #4a0b84, #4a0b84, #4a0b84, #4a0b84, #4a0b84, #4a0b84, #4a0b84, #4a0b84);
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 350px;
+    height: 300px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display:inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #9d61d5;
+    text-align: center;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: #4a0b84;
+}
+.pie-pagina .grupo-2{
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+
+}
+@media screen and (max-width:768px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    .cabeza{
+        height: 200px;
+        background-color: #4a0b84;
+    }
+    .logo{
+        height: 100px;
+    }
+    h1{
+        font-family: "Lugrasimo", cursive;
+        font-weight: 400;
+        font-style: normal;  
+        font-size: 50px;
+        color: blueviolet;
+        margin: 10px;
+    }
+    .microprocesadores{
+        font-size: 25px;
+    }
+    .iniciar{
+        font-size: 30px;
+    }
+    .placas{
+        font-size: 30px;
+    }
+
+    
+
+
+}

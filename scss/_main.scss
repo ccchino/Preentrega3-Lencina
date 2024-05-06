@@ -1,0 +1,57 @@
+main{
+    .carousel-item{
+        height: 500px;
+    }
+    .principales{
+        text-align: center;
+        color: #4a0b84;
+        font-weight: 800;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 50px;
+    }
+    .empresas{
+        width: 170px;
+        height: 150px;
+        margin: 10px;
+    }
+    .quienes-somos{
+        text-align: center;
+        color: #4a0b84;
+        font-weight: 800;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 50px;
+    }
+    .bienvenido{
+        text-align: left;
+    }
+    h6{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-size: 20px;
+    }
+    
+    .imperdibles{
+        text-align: center;
+        color: #4a0b84;
+        font-weight: 800;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 50px;
+    }
+    h3:hover{
+        color: blueviolet;
+    }
+    .opacity{
+        opacity: 30%;
+    }
+    .video-rtx4060{
+        height: 300px;
+        width: 300px;
+    }
+    .micro{
+        width: 450px;
+        height: 250px;
+    }    
+}
